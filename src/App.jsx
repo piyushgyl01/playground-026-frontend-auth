@@ -48,14 +48,14 @@ function App() {
         />
         <button onClick={handleLogin}>Login</button>
       </div>
-      
+{/*       
       <div style={{ marginTop: "20px" }}>
         <button onClick={handleFetch}>Fetch Protected Data</button>
         
         {loading && <p>Loading...</p>}
         {error && <p>Error: {error}</p>}
         {data && <p>Data: {JSON.stringify(data)}</p>}
-      </div>
+      </div> */}
     </div>
   );
 }
